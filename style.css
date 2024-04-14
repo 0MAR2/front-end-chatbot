@@ -9,8 +9,8 @@ body {
   }
   
   .chat-container {
-    width: 20rem;
-    background-color: #ffe1fa;
+    width: 40rem;
+    background-color: #e5ded4;
     flex: 1;
     overflow-y: scroll;
     padding: 20px;
@@ -29,17 +29,20 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 5px;
-    display: inline-block;
+    display: block;
+    width: fit-content;
   }
   
   .user-message {
-    background-color: #ffb0f2;
+    background-color:#ffa9b8;
     align-self: flex-end;
-  }
+    color: #ffffff;
+    }
   
   .bot-message {
-    background-color: #ec76d9;
+    background-color: #f98498;
     align-self: flex-start;
+    color: #ffffff;
   }
   
   .chat-input {
@@ -57,8 +60,9 @@ body {
   #send-btn {
     margin-left: 0.3rem;
     padding: 10px 15px;
-    background-color: #69aaff;
-    color: #ffe1fa;
+    background-color: #f9de86;
+    color: #3b5577;
+    font-weight: bold;
     border: none;
     border: 2px solid #3b5577;
     border-radius: 5px;
@@ -66,5 +70,4 @@ body {
   }
   #send-btn:hover{
     box-shadow: 0px 0px 10px 0px #3b5577;
-
   }
