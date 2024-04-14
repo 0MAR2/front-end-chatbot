@@ -1,5 +1,6 @@
 body {
-    font-family: sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: bold;
     margin: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -9,15 +10,15 @@ body {
   
   .chat-container {
     width: 20rem;
-    background-color: #4FD1C5;
+    background-color: #ffe1fa;
     flex: 1;
     overflow-y: scroll;
     padding: 20px;
     display: flex;
     flex-direction: column-reverse;
     scrollbar-color: #ccc transparent;
-    box-shadow: 0px 0px 10px 0px #008CBA;
-    border: 2px solid #008CBA;
+    box-shadow: 0px 0px 10px 0px #587CAC;
+    border: 2px solid #587CAC;
   }
   
   .chat-history {
@@ -32,12 +33,12 @@ body {
   }
   
   .user-message {
-    background-color: #ddd;
+    background-color: #ffb0f2;
     align-self: flex-end;
   }
   
   .bot-message {
-    background-color: #f0f0f0;
+    background-color: #ec76d9;
     align-self: flex-start;
   }
   
@@ -51,23 +52,19 @@ body {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 0px #2D3748;
+    box-shadow: 0px 0px 10px 0px #3b5577;
   }
-  #message:focus{
-    
-  }
-
   #send-btn {
+    margin-left: 0.3rem;
     padding: 10px 15px;
-    background-color: #008CBA;
-    
-    color: #ccc;
+    background-color: #69aaff;
+    color: #ffe1fa;
     border: none;
-    border: 2px solid #2D3748;
+    border: 2px solid #3b5577;
     border-radius: 5px;
     cursor: pointer;
   }
   #send-btn:hover{
-    box-shadow: 0px 0px 10px 0px #2D3748;
+    box-shadow: 0px 0px 10px 0px #3b5577;
 
   }
